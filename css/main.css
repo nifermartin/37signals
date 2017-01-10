@@ -1,0 +1,295 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Crimson Text', sans-serif;
+}
+
+a {
+	color: #336699;
+	text-decoration: none;
+}
+
+header, section {
+	display: block;
+	margin: 30px auto;
+	width: 825px;
+}
+
+header > h1, #customers h1, #manifesto h1, #rework h1, #offerings h1 {
+	color: #232323;
+	font-size: 48px;
+	line-height: 52px;
+	letter-spacing: -1px;
+	margin: 20px 0;
+	text-align: center;
+}
+
+hr {
+	background: white url(../img/img-hr.png) no-repeat 50%;
+	border: 0;
+	clear: both;
+	height: 12px;
+}
+
+/* NAVIGATION */
+nav {
+	font-family: sans-serif;
+	height: 48px;
+	min-width: 100%;
+}
+nav ul {
+	float: right;
+	margin: 12px 18px;
+	padding: 10px 30px;
+}
+nav li {
+	color: #369369;
+	display: inline-block;
+	font-size: 12px;
+	margin: 0 5px;
+	padding: 5px;
+}
+.signin {
+	color: #18afe0;
+}
+
+/* HEADER */
+header {
+	clear: both;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+header > h2 {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+	margin: 10px 0;
+	color: #222222;
+}
+
+/* PRODUCTS */
+#products {
+	height: 277px;
+}
+#products div {
+	float: left;
+	margin: 25px 0 0 58px;
+	padding: 20px 30px;
+	width: 17%;
+	border: 1px solid #e8e8e8;
+	border-radius: 5px;
+	font-family: 'Roboto', sans-serif;
+}
+#products h3 {
+	font-size: 21px;
+	color: #336699;
+	font-weight: bold;
+	line-height: 32px;
+	margin-bottom: 10px;
+}
+#products span {
+	text-decoration: underline;
+}
+#products sup {
+	color: #999999;
+	font-size: 11px;
+}
+#products h4 {
+	color: #c00c00;
+	font-size: 14px;
+	margin: 10px 0;
+}
+#products p {
+	color: #222222;
+	font-size: 14px;
+	line-height: 21px;
+	margin: 5px 0;
+}
+
+/* CUSTOMERS */
+#customers {
+	margin-bottom: 50px;
+	position: relative;
+}
+.meet {
+	position: absolute;
+	left: -140px;
+	top: 70px;
+}
+section#customers div.meet a {
+	background: url(../img/img-customers.png);
+	display: block;
+	height: 104px;
+	text-indent: -1px;
+	width: 143px;
+}
+section#customers div.meet a:hover {
+	background-position: 0 100%;
+}
+.meet p {
+	color: #336699;
+	cursor: pointer;
+	font-size: 14px;
+	text-align: center;
+}
+.leftarrow {
+	position: relative;
+	height: 36px;
+	top: -35px;
+	width: 69px;
+}
+.globe {
+	float: right;
+}
+#customers > p {
+	color: #656565;
+	font-size: 22px;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+
+/* MANIFESTO */
+#manifesto {
+	height: 445px;
+	margin-bottom: 50px;
+}
+#manifesto .column, #manifesto .column-end {
+	color: #222222;
+	float: left;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	height: 385px;
+	line-height: 27px;
+	width: 45%;
+}
+#manifesto .chapter {
+	clear: left;
+	color: #cccccc;
+	float: left;
+	font-family: 'Crimson Text', sans-serif;
+	font-size: 58px;
+	line-height: normal;
+	margin: -10px 15px 0 0;
+}
+#manifesto .title {
+	color: #cc0000;
+	font-weight: bold;
+	margin: 5px 0;
+	text-align: left;
+}
+#manifesto p {
+	font-size: 12px;
+	line-height: 16px;
+	text-align: left;
+}
+#manifesto .column-end {
+	margin-left: 7%;
+}
+
+/* REWORK */
+#rework {
+	position: relative;
+	height: 500px;
+}
+.rightarrow {
+	position: absolute;
+	right: 5px;
+	top: 140px;
+	width: 69px;
+}
+.crumpled {
+	position: absolute;
+	right: -125px;
+	top: 50px;
+}
+.crumpled p {
+	text-align: center;
+	font-size: 12px;
+}
+.rework {
+	float: left;
+}
+.quotes {
+	padding-top: 5px;
+	text-align: center;
+}
+.quotes div {
+	color: #888888;
+	font-weight: normal;
+	font-family: 'CrimsonRomanItalic', serif;
+	font-style: italic;
+	font-size: 22px;
+	margin-bottom: 10px;
+	margin-top: 35px;
+}
+.quotes p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+}
+
+/* OFFERINGS */
+#offerings {
+	height: 415px;
+	text-align: center;
+}
+#offerings .column, #offerings .column-end {
+	color: #222222;
+	float: left;
+	font-size: 18px;
+	height: 385px;
+	line-height: 27px;
+	margin-left: 11%;
+	width: 37%;
+}
+#offerings h2 {
+	color: #c00c00;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	margin: 5px 0;
+	border-bottom: 1px solid #e8e8e8;
+}
+#offerings li {
+	list-style-type: none;
+	padding: 5px;
+}
+#offerings a {
+	color: #222222;
+	font-size: 22px;
+	font-weight: bold;
+}
+#offerings small {
+	color: #656565;
+	font-size: 12px;
+	font-family: 'Lucida Grande', sans-serif;
+}
+#offerings .column-end {
+	margin-left: 7%;
+}
+
+/* FOOTER */
+footer {
+	text-align: center;
+	font-family: 'Lucida Grande', sans-serif;
+	line-height: 1.5em;
+	margin: 30px auto;
+}
+footer h3 {
+	color: #cc0000;
+	font-size: 14px;
+}
+footer li {
+	font-size: 12px;
+	padding: 5px 0;
+}
+footer a {
+	text-decoration: none;
+}
+footer p {
+	color: #999999;
+	font-size: 10px;
+	margin-top: 50px;
+}
